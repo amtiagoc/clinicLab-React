@@ -5,8 +5,8 @@
 1. Clone the repository
 
 ```sh
-$ git clone https://github.com/cano2030/Frontend_clinicLab.git
-$ cd Frontend_clinicLab
+$ git clone https://github.com/cano2030/clinicLab-React.git
+$ cd clinicLab-React
 ```
 
 2. Install dependencies:
@@ -15,7 +15,8 @@ $ cd Frontend_clinicLab
 $ npm install
 ```
 
-3. Run the server:
+3. Run the server: *Keep in mind that you have to be running the backend to get the information
+required.*
 
 ```sh
 $ npm start
