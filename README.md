@@ -1,4 +1,4 @@
-### Developved by: Santiago Cano Duque - Backend for: ###Clinic Lab project###
+### Developved by: Santiago Cano Duque - Frontend for: ###Clinic Lab project###
 
 ## How to run it:
 
