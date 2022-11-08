@@ -40,6 +40,7 @@ function Admin() {
         created_at: '',
     })
 
+    // This is to open a pop up for each action
     const openCloseModalInsert = () => {
         setModalInsert(!modalInsert);
     }
@@ -51,7 +52,8 @@ function Admin() {
     const openCloseModalDelete = () => {
         setModalDelete(!modalDelete);
     }
-
+// ------------------------------------------------------
+    // This is to get the value of user
     const handleChange = e => {
         const { name, value } = e.target;
         setUsuario({
@@ -60,11 +62,11 @@ function Admin() {
         });
         console.log(Usuario);
     }
-
+// This is to reload page for data
     function refreshPage() {
         window.location.reload(false);
     }
-
+// Select user functionality
     const selectUser = (user, user_case) => {
         setUsuario(user);
         (user_case === "Edit") ? openCloseModalEdit() : openCloseModalDelete()
@@ -200,7 +202,7 @@ function Admin() {
 
             <Modal
                 visible={modalInsert}
-                title="Insertar Usuario"
+                title="New Exam"
                 destroyOnClose={true}
                 onCancel={openCloseModalInsert}
                 centered

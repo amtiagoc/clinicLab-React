@@ -91,7 +91,7 @@ function Users() {
             ),
         },
     ];
-
+// Request methods for user
     const requestDownloadPDF = async () => {
         await axios.get(baseUrl + Usuario.id+'/', Usuario)
             .then(response => {
